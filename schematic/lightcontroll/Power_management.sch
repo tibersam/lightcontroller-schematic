@@ -1,0 +1,285 @@
+EESchema Schematic File Version 4
+LIBS:lightcontroll-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "ATX Power Supply connection"
+Date "2019-03-12"
+Rev "Rev A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Usefull_stuff:ATX24connector J5
+U 1 1 5C88AE87
+P 2200 1400
+F 0 "J5" H 2250 2125 50  0000 C CNN
+F 1 "ATX24connector" H 2250 2034 50  0000 C CNN
+F 2 "" H 2200 1400 50  0001 C CNN
+F 3 "~" H 2200 1400 50  0001 C CNN
+	1    2200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0109
+U 1 1 5C88AF4A
+P 2850 2000
+F 0 "#PWR0109" H 2850 1750 50  0001 C CNN
+F 1 "GNDREF" V 2855 1872 50  0000 R CNN
+F 2 "" H 2850 2000 50  0001 C CNN
+F 3 "" H 2850 2000 50  0001 C CNN
+	1    2850 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR0110
+U 1 1 5C88AF5E
+P 2950 1400
+F 0 "#PWR0110" H 2950 1150 50  0001 C CNN
+F 1 "GNDREF" V 2955 1272 50  0000 R CNN
+F 2 "" H 2950 1400 50  0001 C CNN
+F 3 "" H 2950 1400 50  0001 C CNN
+	1    2950 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR0111
+U 1 1 5C88AF6B
+P 1450 1300
+F 0 "#PWR0111" H 1450 1050 50  0001 C CNN
+F 1 "GNDREF" V 1455 1172 50  0000 R CNN
+F 2 "" H 1450 1300 50  0001 C CNN
+F 3 "" H 1450 1300 50  0001 C CNN
+	1    1450 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 1500 2700 1500
+Wire Wire Line
+	2700 1500 2700 1400
+Wire Wire Line
+	2500 1400 2700 1400
+Connection ~ 2700 1400
+Wire Wire Line
+	2500 1300 2700 1300
+Wire Wire Line
+	2500 2000 2850 2000
+Text GLabel 2750 1750 1    50   Input ~ 0
+5V
+Wire Wire Line
+	2500 1800 2600 1800
+Wire Wire Line
+	2500 1900 2600 1900
+Wire Wire Line
+	2600 1900 2600 1800
+Connection ~ 2600 1800
+Wire Wire Line
+	2600 1800 2750 1800
+Wire Wire Line
+	2500 1700 2600 1700
+Wire Wire Line
+	2600 1700 2600 1800
+Text GLabel 1800 1200 0    50   Output ~ 0
+5V
+Wire Wire Line
+	1800 1200 2000 1200
+Text GLabel 1800 1400 0    50   Output ~ 0
+5V
+Wire Wire Line
+	1800 1400 2000 1400
+Text GLabel 2750 850  1    50   Input ~ 0
+3.3V
+Text GLabel 1750 900  0    50   Output ~ 0
+3.3V
+Wire Wire Line
+	1750 900  1850 900 
+Wire Wire Line
+	2000 1000 1850 1000
+Wire Wire Line
+	1850 1000 1850 900 
+Connection ~ 1850 900 
+Wire Wire Line
+	1850 900  2000 900 
+Text GLabel 1800 2000 0    50   Output ~ 0
+3.3V
+Wire Wire Line
+	1800 2000 2000 2000
+Text GLabel 1650 1600 0    50   Output ~ 0
+PWR_OK
+Wire Wire Line
+	1450 1300 2000 1300
+Wire Wire Line
+	1450 1500 2000 1500
+Wire Wire Line
+	2000 1600 1650 1600
+Wire Wire Line
+	1650 1700 2000 1700
+Text GLabel 1600 1850 0    50   Output ~ 0
+12V
+Wire Wire Line
+	1600 1850 1650 1850
+Wire Wire Line
+	1650 1850 1650 1800
+Wire Wire Line
+	1650 1800 2000 1800
+Wire Wire Line
+	2000 1900 1650 1900
+Wire Wire Line
+	1650 1900 1650 1850
+Connection ~ 1650 1850
+Wire Wire Line
+	2000 1100 1450 1100
+Wire Wire Line
+	1450 1100 1450 1300
+Connection ~ 1450 1300
+$Comp
+L power:GNDREF #PWR0112
+U 1 1 5C88E949
+P 2800 1100
+F 0 "#PWR0112" H 2800 850 50  0001 C CNN
+F 1 "GNDREF" V 2805 972 50  0000 R CNN
+F 2 "" H 2800 1100 50  0001 C CNN
+F 3 "" H 2800 1100 50  0001 C CNN
+	1    2800 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 1100 2800 1100
+Text GLabel 2950 1200 2    50   Input ~ 0
+PS_ON
+Wire Wire Line
+	2950 1200 2500 1200
+Wire Wire Line
+	1450 1300 1450 1500
+Wire Wire Line
+	2700 1300 2700 1400
+Wire Wire Line
+	2700 1400 2950 1400
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5C892086
+P 2200 2800
+F 0 "J6" H 2279 2792 50  0000 L CNN
+F 1 "PWR_JMP" H 2279 2701 50  0000 L CNN
+F 2 "" H 2200 2800 50  0001 C CNN
+F 3 "~" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 2800 0    50   Input ~ 0
+PS_ON
+Wire Wire Line
+	1600 2800 2000 2800
+Text HLabel 2350 2600 2    50   Input ~ 0
+PS_ON
+Wire Wire Line
+	2350 2600 2000 2600
+Wire Wire Line
+	2000 2600 2000 2800
+Connection ~ 2000 2800
+$Comp
+L power:GNDREF #PWR0113
+U 1 1 5C89325F
+P 1800 2900
+F 0 "#PWR0113" H 1800 2650 50  0001 C CNN
+F 1 "GNDREF" H 1805 2727 50  0000 C CNN
+F 2 "" H 1800 2900 50  0001 C CNN
+F 3 "" H 1800 2900 50  0001 C CNN
+	1    1800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2900 2000 2900
+Text Notes 1600 2550 0    50   ~ 0
+Power on Jumper
+Text HLabel 3100 900  2    50   Output ~ 0
+3.3V
+Wire Wire Line
+	2500 900  2750 900 
+Wire Wire Line
+	2750 900  2750 850 
+Connection ~ 2750 900 
+Wire Wire Line
+	2750 1750 2750 1800
+Connection ~ 2750 1800
+Text HLabel 3150 1800 2    50   Output ~ 0
+5V
+Text HLabel 1650 1700 0    50   Output ~ 0
+5VSTANDBY
+Text GLabel 1650 3800 0    50   Input ~ 0
+PWR_OK
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C897CCE
+P 2200 3800
+F 0 "J?" H 2279 3792 50  0000 L CNN
+F 1 "PWR_JMP" H 2279 3701 50  0000 L CNN
+F 2 "" H 2200 3800 50  0001 C CNN
+F 3 "~" H 2200 3800 50  0001 C CNN
+	1    2200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3800 1850 3800
+$Comp
+L Device:R R?
+U 1 1 5C8995D6
+P 1850 4100
+F 0 "R?" H 1920 4146 50  0000 L CNN
+F 1 "R" H 1920 4055 50  0000 L CNN
+F 2 "" V 1780 4100 50  0001 C CNN
+F 3 "~" H 1850 4100 50  0001 C CNN
+	1    1850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3900 1850 3900
+$Comp
+L Device:LED D?
+U 1 1 5C89AC9D
+P 1850 4450
+F 0 "D?" V 1888 4333 50  0000 R CNN
+F 1 "LED" V 1797 4333 50  0000 R CNN
+F 2 "" H 1850 4450 50  0001 C CNN
+F 3 "~" H 1850 4450 50  0001 C CNN
+	1    1850 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5C89B973
+P 1850 4900
+F 0 "#PWR?" H 1850 4650 50  0001 C CNN
+F 1 "GNDREF" H 1855 4727 50  0000 C CNN
+F 2 "" H 1850 4900 50  0001 C CNN
+F 3 "" H 1850 4900 50  0001 C CNN
+	1    1850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4900 1850 4600
+Wire Wire Line
+	1850 4250 1850 4300
+Wire Wire Line
+	1850 3900 1850 3950
+Text HLabel 2200 3650 2    50   Output ~ 0
+PWR_OK
+Wire Wire Line
+	2200 3650 1850 3650
+Wire Wire Line
+	1850 3650 1850 3800
+Connection ~ 1850 3800
+Wire Wire Line
+	1850 3800 2000 3800
+Text Notes 1200 3550 0    50   ~ 0
+Power OK Status LED with Jumper
+Wire Wire Line
+	2750 900  3100 900 
+Wire Wire Line
+	2750 1800 3150 1800
+$EndSCHEMATC
