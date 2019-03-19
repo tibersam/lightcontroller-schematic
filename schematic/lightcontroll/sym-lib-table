@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name lightcontroll-rescue)(type Legacy)(uri ${KIPRJMOD}/lightcontroll-rescue.lib)(options "")(descr ""))
+)

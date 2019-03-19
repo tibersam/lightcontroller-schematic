@@ -1,0 +1,44 @@
+#SPI#
+##SPI1##				Selectet PINs
+ * CLK		PA5	PB3		PA5
+ * MISO		PA6			PA6
+ * MOSI		PA7	PB5		PA7
+##SPI2##
+ * CLK		PB13	PB10		PB13
+ * MISO		PB14	PC2		PB14
+ * MOSI		PB15	PC3		PB15
+
+##SPI3##
+ * CLK		PB3	PC10		PC10	#Warnung vor UART4
+ * MISO		PC11			PC11	#Warnung vor UART4
+ * MOSI		PB5	PC12		PC13	
+
+#UART#
+
+##UART1##
+ * RX		PA10	PB7		PA10
+ * TX		PA9	PB6		PA9
+
+##UART2##
+ * RX 		PA3	PD6		PA3
+ * TX		PA2	PD5		PA2
+
+
+##UART3##
+ * RX		PB11	PC11	PD9	PB11
+ * TX		PB10	PC10	PD8	PB10
+
+##UART4##
+ * RX		PC11			PC11
+ * TX		PC10			PC10
+
+##UART5##
+ * RX		PD2			PD2
+ * TX		PC12			PC12
+
+ ##UART6##
+  * RX		PC7			PC7
+  * TX		PC6			PC6
+
+
+

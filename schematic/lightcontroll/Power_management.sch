@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Usefull_stuff:ATX24connector J5
+L lightcontroll-rescue:ATX24connector-Usefull_stuff J5
 U 1 1 5C88AE87
 P 2200 1400
 F 0 "J5" H 2250 2125 50  0000 C CNN
@@ -175,10 +175,8 @@ Text GLabel 1600 2800 0    50   Input ~ 0
 PS_ON
 Wire Wire Line
 	1600 2800 2000 2800
-Text HLabel 2350 2600 2    50   Input ~ 0
-PS_ON
-Wire Wire Line
-	2350 2600 2000 2600
+Text HLabel 3100 2800 0    50   Input ~ 0
+PS_ON_IN
 Wire Wire Line
 	2000 2600 2000 2800
 Connection ~ 2000 2800
@@ -251,10 +249,10 @@ F 3 "~" H 1850 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0118
 U 1 1 5C89B973
 P 1850 4900
-F 0 "#PWR?" H 1850 4650 50  0001 C CNN
+F 0 "#PWR0118" H 1850 4650 50  0001 C CNN
 F 1 "GNDREF" H 1855 4727 50  0000 C CNN
 F 2 "" H 1850 4900 50  0001 C CNN
 F 3 "" H 1850 4900 50  0001 C CNN
@@ -282,4 +280,32 @@ Wire Wire Line
 	2750 900  3100 900 
 Wire Wire Line
 	2750 1800 3150 1800
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5C914B75
+P 3400 2800
+F 0 "Q?" H 3605 2846 50  0000 L CNN
+F 1 "2N7000" H 3605 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3600 2725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3400 2800 50  0001 L CNN
+	1    3400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2600 3500 2600
+Wire Wire Line
+	3200 2800 3100 2800
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5C916946
+P 3500 3050
+F 0 "#PWR?" H 3500 2800 50  0001 C CNN
+F 1 "GNDREF" H 3505 2877 50  0000 C CNN
+F 2 "" H 3500 3050 50  0001 C CNN
+F 3 "" H 3500 3050 50  0001 C CNN
+	1    3500 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3050 3500 3000
 $EndSCHEMATC
