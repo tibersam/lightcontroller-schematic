@@ -69,8 +69,6 @@ Wire Wire Line
 	2500 1300 2700 1300
 Wire Wire Line
 	2500 2000 2850 2000
-Text GLabel 2750 1750 1    50   Input ~ 0
-5V
 Wire Wire Line
 	2500 1800 2600 1800
 Wire Wire Line
@@ -79,25 +77,15 @@ Wire Wire Line
 	2600 1900 2600 1800
 Connection ~ 2600 1800
 Wire Wire Line
-	2600 1800 2750 1800
-Wire Wire Line
 	2500 1700 2600 1700
 Wire Wire Line
 	2600 1700 2600 1800
-Text GLabel 1800 1200 0    50   Output ~ 0
-5V
 Wire Wire Line
 	1800 1200 2000 1200
-Text GLabel 1800 1400 0    50   Output ~ 0
-5V
 Wire Wire Line
 	1800 1400 2000 1400
-Text GLabel 2750 850  1    50   Input ~ 0
-3.3V
-Text GLabel 1750 900  0    50   Output ~ 0
-3.3V
 Wire Wire Line
-	1750 900  1850 900 
+	1650 900  1850 900 
 Wire Wire Line
 	2000 1000 1850 1000
 Wire Wire Line
@@ -105,8 +93,6 @@ Wire Wire Line
 Connection ~ 1850 900 
 Wire Wire Line
 	1850 900  2000 900 
-Text GLabel 1800 2000 0    50   Output ~ 0
-3.3V
 Wire Wire Line
 	1800 2000 2000 2000
 Text GLabel 1650 1600 0    50   Output ~ 0
@@ -195,16 +181,8 @@ Wire Wire Line
 	1800 2900 2000 2900
 Text Notes 1600 2550 0    50   ~ 0
 Power on Jumper
-Text HLabel 3100 900  2    50   Output ~ 0
+Text HLabel 2800 900  2    50   Output ~ 0
 3.3V
-Wire Wire Line
-	2500 900  2750 900 
-Wire Wire Line
-	2750 900  2750 850 
-Connection ~ 2750 900 
-Wire Wire Line
-	2750 1750 2750 1800
-Connection ~ 2750 1800
 Text HLabel 3150 1800 2    50   Output ~ 0
 5V
 Text HLabel 1650 1700 0    50   Output ~ 0
@@ -276,10 +254,6 @@ Wire Wire Line
 	1850 3800 2000 3800
 Text Notes 1200 3550 0    50   ~ 0
 Power OK Status LED with Jumper
-Wire Wire Line
-	2750 900  3100 900 
-Wire Wire Line
-	2750 1800 3150 1800
 $Comp
 L Transistor_FET:2N7000 Q?
 U 1 1 5C914B75
@@ -308,4 +282,22 @@ F 3 "" H 3500 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3500 3050 3500 3000
+Text Notes 3000 2550 0    50   ~ 0
+Power enable Transistor
+Text Label 2850 1800 0    50   ~ 0
+5V
+Wire Wire Line
+	2600 1800 3150 1800
+Text Label 1800 1400 0    50   ~ 0
+5V
+Text Label 1800 1200 0    50   ~ 0
+5V
+Text Label 1800 2000 0    50   ~ 0
+3.3V
+Text Label 1650 900  0    50   ~ 0
+3.3V
+Text Label 2600 900  0    50   ~ 0
+3.3V
+Wire Wire Line
+	2500 900  2800 900 
 $EndSCHEMATC

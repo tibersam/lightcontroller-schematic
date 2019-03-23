@@ -199,58 +199,292 @@ Wire Wire Line
 	4200 3050 3650 3050
 Wire Wire Line
 	4200 2650 3650 2650
-Text HLabel 900  4150 0    50   Input ~ 0
-UART_IN
-Wire Bus Line
-	900  4150 1050 4150
-Wire Bus Line
-	1050 4150 1050 2750
-Wire Bus Line
-	1050 2750 1300 2750
-Entry Bus Bus
-	1300 2750 1400 2650
-Entry Bus Bus
-	1300 2750 1400 2850
-Wire Bus Line
-	1400 2650 1650 2650
-Wire Bus Line
-	1400 2850 1650 2850
-Text Label 1450 2650 0    50   ~ 0
-UART1
-Text Label 1450 2850 0    50   ~ 0
-UART2
+Text HLabel 600  4350 3    50   Input ~ 0
+UARTA_IN
 $Comp
 L Interface_UART:MAX13433EESD U?
 U 1 1 5C913A33
-P 2900 5550
-F 0 "U?" H 2900 6428 50  0000 C CNN
-F 1 "MAX13433EESD" H 2900 6337 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2900 4550 50  0001 C CIN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf" H 2900 6350 50  0001 C CNN
-	1    2900 5550
+P 2500 6900
+F 0 "U?" H 2500 7778 50  0000 C CNN
+F 1 "MAX13433EESD" H 2500 7687 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2500 5900 50  0001 C CIN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf" H 2500 7700 50  0001 C CNN
+	1    2500 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5C913BCB
-P 3700 5250
-F 0 "R?" H 3770 5296 50  0000 L CNN
-F 1 "R" H 3770 5205 50  0000 L CNN
-F 2 "" V 3630 5250 50  0001 C CNN
-F 3 "~" H 3700 5250 50  0001 C CNN
-	1    3700 5250
+P 3300 6600
+F 0 "R?" H 3370 6646 50  0000 L CNN
+F 1 "R" H 3370 6555 50  0000 L CNN
+F 2 "" V 3230 6600 50  0001 C CNN
+F 3 "~" H 3300 6600 50  0001 C CNN
+	1    3300 6600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 5150 3550 5150
+	3000 6500 3150 6500
 Wire Wire Line
-	3550 5150 3550 5100
+	3150 6500 3150 6450
 Wire Wire Line
-	3550 5100 3700 5100
+	3150 6450 3300 6450
 Wire Wire Line
-	3700 5400 3550 5400
+	3300 6750 3150 6750
 Wire Wire Line
-	3550 5400 3550 5350
+	3150 6750 3150 6700
 Wire Wire Line
-	3550 5350 3400 5350
+	3150 6700 3000 6700
+$Comp
+L Connector:RJ45_LED_Shielded J?
+U 1 1 5C915280
+P 6050 6150
+F 0 "J?" H 6050 6724 50  0000 C CNN
+F 1 "RJ45_LED_Shielded" H 6050 6815 50  0000 C CNN
+F 2 "" V 6050 6175 50  0001 C CNN
+F 3 "~" V 6050 6175 50  0001 C CNN
+	1    6050 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 6450 3800 6450
+Wire Wire Line
+	3800 6450 3800 6050
+Wire Wire Line
+	3800 6050 5650 6050
+Connection ~ 3300 6450
+Wire Wire Line
+	3300 6750 3850 6750
+Wire Wire Line
+	3850 6750 3850 6350
+Wire Wire Line
+	3850 6350 5650 6350
+Connection ~ 3300 6750
+Wire Wire Line
+	5650 6450 3900 6450
+Wire Wire Line
+	3900 6450 3900 7000
+Wire Wire Line
+	3900 7000 3000 7000
+Wire Wire Line
+	5650 6550 3950 6550
+Wire Wire Line
+	3950 6550 3950 7200
+Wire Wire Line
+	3950 7200 3000 7200
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5C9171B8
+P 6550 5950
+F 0 "#PWR?" H 6550 5700 50  0001 C CNN
+F 1 "GNDREF" H 6555 5777 50  0000 C CNN
+F 2 "" H 6550 5950 50  0001 C CNN
+F 3 "" H 6550 5950 50  0001 C CNN
+	1    6550 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5950 6450 5950
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5C91798B
+P 6550 6550
+F 0 "#PWR?" H 6550 6300 50  0001 C CNN
+F 1 "GNDREF" H 6555 6377 50  0000 C CNN
+F 2 "" H 6550 6550 50  0001 C CNN
+F 3 "" H 6550 6550 50  0001 C CNN
+	1    6550 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 6550 6450 6550
+$Comp
+L Interface_UART:MAX13433EESD U?
+U 1 1 5C918C3E
+P 3000 5100
+F 0 "U?" H 3000 5978 50  0000 C CNN
+F 1 "MAX13433EESD" H 3000 5887 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3000 4100 50  0001 C CIN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf" H 3000 5900 50  0001 C CNN
+	1    3000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6250 4150 6250
+Wire Wire Line
+	4150 6250 4150 5400
+Wire Wire Line
+	4150 5400 3500 5400
+Wire Wire Line
+	5650 6150 4200 6150
+Wire Wire Line
+	4200 6150 4200 5200
+Wire Wire Line
+	4200 5200 3500 5200
+Wire Wire Line
+	4250 4900 4250 5950
+Wire Wire Line
+	4250 5950 5650 5950
+Wire Wire Line
+	5650 5850 4300 5850
+$Comp
+L Device:R R?
+U 1 1 5C91C2AD
+P 3700 4750
+F 0 "R?" H 3770 4796 50  0000 L CNN
+F 1 "R" H 3770 4705 50  0000 L CNN
+F 2 "" V 3630 4750 50  0001 C CNN
+F 3 "~" H 3700 4750 50  0001 C CNN
+	1    3700 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4900 4250 4900
+Wire Wire Line
+	3500 4700 3550 4700
+Wire Wire Line
+	3550 4700 3550 4600
+Wire Wire Line
+	4300 4600 4300 5850
+Wire Wire Line
+	3700 4600 4300 4600
+Text Label 1350 2450 0    50   ~ 0
+UARTA_RS232_TX
+Text Label 1300 6600 0    50   ~ 0
+UARTA_RS485_RX
+Text Label 1250 7100 0    50   ~ 0
+UARTA_RS485_TX
+$Comp
+L Connector:DB9_Female_MountingHoles J?
+U 1 1 5C94330A
+P 7350 2600
+F 0 "J?" H 7530 2603 50  0000 L CNN
+F 1 "DB9_Female_MountingHoles" H 7530 2512 50  0000 L CNN
+F 2 "" H 7350 2600 50  0001 C CNN
+F 3 " ~" H 7350 2600 50  0001 C CNN
+	1    7350 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel 1500 4300 3    50   Input ~ 0
+UARTB_IN
+Wire Wire Line
+	1600 3050 2050 3050
+Text Label 1650 3050 0    50   ~ 0
+DATA1
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J?
+U 1 1 5C994112
+P 950 3800
+F 0 "J?" H 1000 4117 50  0000 C CNN
+F 1 "UARTA" H 1000 4026 50  0000 C CNN
+F 2 "" H 950 3800 50  0001 C CNN
+F 3 "~" H 950 3800 50  0001 C CNN
+	1    950  3800
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	600  4350 600  4150
+Entry Wire Line
+	1300 4150 1400 4050
+Entry Wire Line
+	550  4050 650  4150
+Wire Wire Line
+	1400 4050 1400 3800
+Wire Wire Line
+	1400 3800 1250 3800
+Text Label 1250 3800 0    50   ~ 0
+DATA0
+Wire Wire Line
+	550  4050 550  3800
+Wire Wire Line
+	550  3800 750  3800
+Text Label 750  3800 2    50   ~ 0
+DATA1
+Wire Wire Line
+	750  3900 750  7100
+Wire Wire Line
+	750  7100 2000 7100
+Wire Wire Line
+	750  2450 750  3700
+Wire Wire Line
+	750  2450 2050 2450
+Wire Wire Line
+	1250 3700 1250 2850
+Wire Wire Line
+	1250 2850 2050 2850
+Text Label 1300 2850 0    50   ~ 0
+UARTA_RS232_RX
+Wire Wire Line
+	1250 3900 1250 6600
+Wire Wire Line
+	1250 6600 2000 6600
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J?
+U 1 1 5C9A37E7
+P 1950 3800
+F 0 "J?" H 2000 4117 50  0000 C CNN
+F 1 "UARTB" H 2000 4026 50  0000 C CNN
+F 2 "" H 1950 3800 50  0001 C CNN
+F 3 "~" H 1950 3800 50  0001 C CNN
+	1    1950 3800
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	1500 4300 1500 4050
+Entry Wire Line
+	2300 4050 2400 3950
+Entry Wire Line
+	1550 3950 1650 4050
+Wire Wire Line
+	1550 3950 1550 3800
+Wire Wire Line
+	1550 3800 1750 3800
+Text Label 1550 3800 0    50   ~ 0
+DATA1
+Wire Wire Line
+	2400 3950 2400 3800
+Wire Wire Line
+	2400 3800 2250 3800
+Text Label 2250 3800 0    50   ~ 0
+DATA0
+Wire Wire Line
+	1750 3900 1750 4100
+Wire Wire Line
+	1750 4100 1550 4100
+Wire Wire Line
+	1550 4100 1550 5300
+Wire Wire Line
+	1550 5300 2500 5300
+Wire Wire Line
+	2250 4200 1600 4200
+Wire Wire Line
+	1600 4200 1600 4800
+Wire Wire Line
+	1600 4800 2500 4800
+Wire Wire Line
+	2250 3900 2250 4200
+Connection ~ 3700 4600
+Connection ~ 3700 4900
+Wire Wire Line
+	3500 4900 3700 4900
+Wire Wire Line
+	3550 4600 3700 4600
+Text Label 1650 4800 0    50   ~ 0
+UARTB_RS485_RX
+Text Label 1650 5300 0    50   ~ 0
+UARTB_RX485_TX
+Wire Wire Line
+	1750 3700 1750 3300
+Wire Wire Line
+	1750 3300 1050 3300
+Wire Wire Line
+	1050 3300 1050 2650
+Wire Wire Line
+	1050 2650 2050 2650
+Wire Bus Line
+	1500 4050 2300 4050
+Wire Bus Line
+	600  4150 1300 4150
+Text Label 1300 2650 0    50   ~ 0
+UARTB_RS232_TX
 $EndSCHEMATC

@@ -1022,20 +1022,14 @@ F 3 "~" H 6250 1550 50  0001 C CNN
 	1    6250 1550
 	1    0    0    -1  
 $EndComp
-Entry Bus Bus
-	7400 1350 7500 1450
-Entry Bus Bus
-	7400 700  7500 800 
-Entry Bus Bus
-	7400 1950 7500 2050
 Text Label 7200 700  0    50   ~ 0
 SPI1
 Text Label 7200 1350 0    50   ~ 0
 SPI2
 Text Label 7200 1950 0    50   ~ 0
 SPI3
-Text HLabel 7600 800  2    50   Output ~ 0
-SPI
+Text HLabel 7400 700  2    50   Output ~ 0
+SPI1
 $Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5C8D2A42
@@ -1202,10 +1196,6 @@ Text Label 9200 2900 0    50   ~ 0
 UART5
 Text Label 9200 3400 0    50   ~ 0
 UART6
-Wire Bus Line
-	9400 2900 9150 2900
-Wire Bus Line
-	9400 3400 9150 3400
 Wire Wire Line
 	9050 2700 8750 2700
 Wire Wire Line
@@ -1282,8 +1272,6 @@ Wire Wire Line
 	6800 2650 6700 2650
 Wire Wire Line
 	6800 2600 6800 2650
-Wire Bus Line
-	7500 800  7600 800 
 Wire Bus Line
 	7400 700  7150 700 
 Wire Bus Line
@@ -2072,30 +2060,34 @@ Text Label 8850 3050 0    50   ~ 0
 DATA0
 Text Label 8850 3150 0    50   ~ 0
 DATA1
+Text HLabel 9550 1150 2    50   Output ~ 0
+UART1
 Wire Bus Line
-	9150 2450 9400 2450
+	9150 1150 9550 1150
+Text HLabel 9550 1600 2    50   Output ~ 0
+UART2
 Wire Bus Line
-	9150 2050 9400 2050
+	9150 1600 9550 1600
+Text HLabel 9550 2050 2    50   Output ~ 0
+UART3
+Text HLabel 9550 2450 2    50   Output ~ 0
+UART4
+Text HLabel 9550 2900 2    50   Output ~ 0
+UART5
+Text HLabel 9550 3400 2    50   Output ~ 0
+UART6
 Wire Bus Line
-	9150 1600 9400 1600
+	9150 3400 9550 3400
 Wire Bus Line
-	9150 1150 9400 1150
-Entry Bus Bus
-	9400 1150 9500 1250
-Entry Bus Bus
-	9400 1600 9500 1700
-Entry Bus Bus
-	9400 2050 9500 2150
-Entry Bus Bus
-	9400 2450 9500 2550
-Entry Bus Bus
-	9400 2900 9500 3000
-Entry Bus Bus
-	9400 3400 9500 3500
+	9150 2900 9550 2900
 Wire Bus Line
-	9500 900  9800 900 
-Text HLabel 9800 900  2    50   Output ~ 0
-UART
+	9150 2450 9550 2450
+Wire Bus Line
+	9150 2050 9550 2050
+Text HLabel 7400 1350 2    50   Output ~ 0
+SPI2
+Text HLabel 7400 1950 2    50   Output ~ 0
+SPI3
 Wire Bus Line
 	9150 2700 9150 2900
 Wire Bus Line
@@ -2109,13 +2101,9 @@ Wire Bus Line
 Wire Bus Line
 	9150 1850 9150 2050
 Wire Bus Line
-	7500 800  7500 2050
-Wire Bus Line
 	7150 1950 7150 2150
 Wire Bus Line
 	7150 1350 7150 1550
 Wire Bus Line
 	7150 700  7150 900 
-Wire Bus Line
-	9500 900  9500 3500
 $EndSCHEMATC
