@@ -1,0 +1,68 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/tibersam/slow_home/programieren/lightcontroll/schematic/lightcontroll/lightcontroll.sch</h1>
+    <p>Mo 25 Mai 2020 03:22:34 CEST</p>
+    <p>Eeschema 5.1.5+dfsg1-2build2</p>
+    <p><b>Component Count:</b>123</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C3, C4</td><td>3</td><td>1 uF</td><td>Device:CP</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>C2, C7, C10, C14, C18, C22, C27, C28, C29, C30, C34, C35, C36, C37, C40, C41, C42, C43</td><td>18</td><td>100nF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C5, C33</td><td>2</td><td>1 uF</td><td>Device:CP_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Polarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C6</td><td>1</td><td>1uF</td><td>Device:C</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C8, C11, C15, C19, C23</td><td>5</td><td>1uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C9</td><td>1</td><td>100 nF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C12, C16, C20, C24</td><td>4</td><td>10uF</td><td>Device:CP_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Polarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C13, C17, C21, C25, C26</td><td>5</td><td>100uF</td><td>Device:CP_Small</td><td>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</td><td>Polarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C31, C32, C38, C39, C44, C45</td><td>6</td><td>200 pF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1</td><td>1</td><td>LED</td><td>Device:LED</td><td>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D2, D3, D4, D5, D6, D7</td><td>6</td><td>D_Schottky</td><td>Device:D_Schottky</td><td>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Schottky diode</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>SPI1_SS</td><td>Connector_Generic:Conn_01x02</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>5V Selector</td><td>Connector_Generic:Conn_01x03</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>SPI1_CLK</td><td>Connector_Generic:Conn_01x02</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J4, J5</td><td>2</td><td>UART/SPI JUMPER</td><td>Connector_Generic:Conn_01x03</td><td>Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J6, J7</td><td>2</td><td>Conn_02x24_Odd_Even</td><td>Connector_Generic:Conn_02x24_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x24_P2.54mm_Vertical</td><td>Generic connector, double row, 02x24, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J8</td><td>1</td><td>UART/SPI JUMPER</td><td>Connector_Generic:Conn_01x02</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J9, J10, J20</td><td>3</td><td>SPI 5V</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J11</td><td>1</td><td>3.3V jumper</td><td>Connector_Generic:Conn_01x02</td><td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J12, J13</td><td>2</td><td>Header 24X2</td><td>Connector_Generic:Conn_02x24_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x24_P2.54mm_Vertical</td><td>Generic connector, double row, 02x24, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J14</td><td>1</td><td>ATX24connector</td><td>lightcontroll-rescue:ATX24connector-Usefull_stuff</td><td>Connector_Molex:Molex_Mini-Fit_Jr_5566-24A_2x12_P4.20mm_Vertical</td><td></td><td></td></tr>
+    <tr><td>J15, J16</td><td>2</td><td>PWR_JMP</td><td>Connector_Generic:Conn_01x02</td><td>Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J17, J18</td><td>2</td><td>DB9_Female_MountingHoles</td><td>Connector:DB9_Female_MountingHoles</td><td></td><td>9-pin female D-SUB connector, Mounting Hole</td><td></td></tr>
+    <tr><td>J19, J26, J30</td><td>3</td><td>SK2812_sig</td><td>Connector_Generic:Conn_01x01</td><td>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J21</td><td>1</td><td>RJ45_LED_Shielded</td><td>Connector:RJ45_LED_Shielded</td><td>Connector_RJ:RJ45_BEL_SS74301-00x_Vertical</td><td>RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded</td><td></td></tr>
+    <tr><td>J22, J23, J24, J25, J37, J38, J39, J40</td><td>8</td><td>Conn_01x03</td><td>Connector_Generic:Conn_01x03</td><td>Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J27</td><td>1</td><td>SPI1_MISO</td><td>Connector_Generic:Conn_01x02</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J28, J29, J32</td><td>3</td><td>Conn_01x03</td><td>Connector_Generic:Conn_01x03</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J31</td><td>1</td><td>SPI1_MOSI</td><td>Connector_Generic:Conn_01x02</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J33</td><td>1</td><td>SPI2_SS</td><td>Connector_Generic:Conn_01x02</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J34</td><td>1</td><td>SPI2_CLK</td><td>Connector_Generic:Conn_01x02</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J35</td><td>1</td><td>SPI2_MISO</td><td>Connector_Generic:Conn_01x02</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J36</td><td>1</td><td>SPI2_MOSI</td><td>Connector_Generic:Conn_01x02</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J41</td><td>1</td><td>Conn_01x02</td><td>Connector_Generic:Conn_01x02</td><td>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>Q1</td><td>1</td><td>2N7000</td><td>Transistor_FET:2N7000</td><td>Package_TO_SOT_THT:TO-92_Inline</td><td>0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92</td><td></td></tr>
+    <tr><td>R1</td><td>1</td><td>200 ohm</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R2</td><td>1</td><td>120 Ohm</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R3, R4, R5</td><td>3</td><td>R</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>10k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R7</td><td>1</td><td>10K</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R8, R10, R12</td><td>3</td><td>6.5k</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R9, R11, R13</td><td>3</td><td>3.3K</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R14, R15, R16</td><td>3</td><td>100k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>74HC14</td><td>74xx:74HC14</td><td>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</td><td>Hex inverter schmitt trigger</td><td></td></tr>
+    <tr><td>U2, U3</td><td>2</td><td>MAX13433EESD</td><td>Interface_UART:MAX13433EESD</td><td>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</td><td>RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, SOIC-14 package</td><td></td></tr>
+    <tr><td>U4, U8, U11</td><td>3</td><td>74LS123</td><td>74xx:74LS123</td><td>Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm</td><td>Dual retriggerable Monostable</td><td></td></tr>
+    <tr><td>U5, U9, U12</td><td>3</td><td>7402</td><td>74xx:7402</td><td>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</td><td>quad 2-input NOR gate</td><td></td></tr>
+    <tr><td>U6, U10, U13</td><td>3</td><td>TXB0104D</td><td>Logic_LevelTranslator:TXB0104D</td><td>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</td><td>4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, SOIC-14</td><td></td></tr>
+    <tr><td>U7</td><td>1</td><td>MAX232</td><td>Interface_UART:MAX232</td><td>Package_SO:SOP-16_4.55x10.3mm_P1.27mm</td><td>Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
