@@ -1407,4 +1407,14 @@ Wire Wire Line
 	6900 3800 7100 3800
 Wire Wire Line
 	7200 3800 7700 3800
+Text HLabel 4300 2400 0    50   Input ~ 0
+PE2
+Text HLabel 4300 2500 0    50   Input ~ 0
+PE4
+Text HLabel 5400 2500 2    50   Output ~ 0
+PE5
+Text HLabel 4300 2600 0    50   Output ~ 0
+PE6
+NoConn ~ 8250 5000
+NoConn ~ 8200 4500
 $EndSCHEMATC

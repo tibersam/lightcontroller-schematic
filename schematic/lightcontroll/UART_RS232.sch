@@ -31,9 +31,10 @@ P 3950 3150
 AR Path="/5C906D74/5EA6D925" Ref="C?"  Part="1" 
 AR Path="/5EA64CCD/5EA6D925" Ref="C33"  Part="1" 
 F 0 "C33" V 3725 3150 50  0000 C CNN
-F 1 "1 uF" V 3816 3150 50  0000 C CNN
+F 1 "1uF" V 3816 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 3150 50  0001 C CNN
 F 3 "~" H 3950 3150 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 3950 3150 50  0001 C CNN "Mouser"
 	1    3950 3150
 	0    1    1    0   
 $EndComp
@@ -48,9 +49,10 @@ P 4150 2850
 AR Path="/5C906D74/5EA6D92D" Ref="C?"  Part="1" 
 AR Path="/5EA64CCD/5EA6D92D" Ref="C5"  Part="1" 
 F 0 "C5" V 4375 2850 50  0000 C CNN
-F 1 "1 uF" V 4284 2850 50  0000 C CNN
+F 1 "1uF" V 4284 2850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4150 2850 50  0001 C CNN
 F 3 "~" H 4150 2850 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 4150 2850 50  0001 C CNN "Mouser"
 	1    4150 2850
 	0    -1   -1   0   
 $EndComp
@@ -61,9 +63,10 @@ P 4050 2500
 AR Path="/5C906D74/5EA6D933" Ref="C?"  Part="1" 
 AR Path="/5EA64CCD/5EA6D933" Ref="C4"  Part="1" 
 F 0 "C4" H 4168 2546 50  0000 L CNN
-F 1 "1 uF" H 4168 2455 50  0000 L CNN
+F 1 "1uF" H 4168 2455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4088 2350 50  0001 C CNN
 F 3 "~" H 4050 2500 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 4050 2500 50  0001 C CNN "Mouser"
 	1    4050 2500
 	1    0    0    -1  
 $EndComp
@@ -74,9 +77,10 @@ P 1850 2500
 AR Path="/5C906D74/5EA6D939" Ref="C?"  Part="1" 
 AR Path="/5EA64CCD/5EA6D939" Ref="C3"  Part="1" 
 F 0 "C3" H 1968 2546 50  0000 L CNN
-F 1 "1 uF" H 1968 2455 50  0000 L CNN
+F 1 "1uF" H 1968 2455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1888 2350 50  0001 C CNN
 F 3 "~" H 1850 2500 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 1850 2500 50  0001 C CNN "Mouser"
 	1    1850 2500
 	1    0    0    -1  
 $EndComp
@@ -138,9 +142,10 @@ P 3750 1950
 AR Path="/5C906D74/5EA6D96F" Ref="C?"  Part="1" 
 AR Path="/5EA64CCD/5EA6D96F" Ref="C1"  Part="1" 
 F 0 "C1" H 3868 1996 50  0000 L CNN
-F 1 "1 uF" H 3868 1905 50  0000 L CNN
+F 1 "1uF" H 3868 1905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3788 1800 50  0001 C CNN
 F 3 "~" H 3750 1950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 3750 1950 50  0001 C CNN "Mouser"
 	1    3750 1950
 	1    0    0    -1  
 $EndComp
@@ -175,6 +180,7 @@ F 0 "U7" H 3150 4628 50  0000 C CNN
 F 1 "MAX232" H 3150 4537 50  0000 C CNN
 F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3200 2200 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 3150 3350 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/MAX232DR?qs=sGAEpiMZZMtYFXwiBRPs0zIa5BEZai5M" H 3150 3250 50  0001 C CNN "Mouser"
 	1    3150 3250
 	1    0    0    -1  
 $EndComp
@@ -188,6 +194,7 @@ F 0 "J18" H 6580 3603 50  0000 L CNN
 F 1 "DB9_Female_MountingHoles" H 6580 3512 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 6400 3600 50  0001 C CNN
 F 3 " ~" H 6400 3600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/NorComp/182-009-113R561?qs=q2eLhcXmQbik7hG6NHalhA%3D%3D" H 6400 3600 50  0001 C CNN "Mouser"
 	1    6400 3600
 	1    0    0    -1  
 $EndComp
@@ -232,6 +239,7 @@ F 0 "U1" H 1800 5817 50  0000 C CNN
 F 1 "74HC14" H 1800 5726 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1800 5500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 1800 5500 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 1800 5500 50  0001 C CNN "Mouser"
 	1    1800 5500
 	1    0    0    -1  
 $EndComp
@@ -243,6 +251,7 @@ F 0 "U1" H 2400 5817 50  0000 C CNN
 F 1 "74HC14" H 2400 5726 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2400 5500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 2400 5500 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 2400 5500 50  0001 C CNN "Mouser"
 	2    2400 5500
 	1    0    0    -1  
 $EndComp
@@ -254,6 +263,7 @@ F 0 "U1" H 1800 6717 50  0000 C CNN
 F 1 "74HC14" H 1800 6626 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1800 6400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 1800 6400 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 1800 6400 50  0001 C CNN "Mouser"
 	4    1800 6400
 	1    0    0    -1  
 $EndComp
@@ -265,6 +275,7 @@ F 0 "U1" H 2400 6267 50  0000 C CNN
 F 1 "74HC14" H 2400 6176 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2400 5950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 2400 5950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 2400 5950 50  0001 C CNN "Mouser"
 	5    2400 5950
 	1    0    0    -1  
 $EndComp
@@ -276,6 +287,7 @@ F 0 "U1" H 1800 6267 50  0000 C CNN
 F 1 "74HC14" H 1800 6176 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1800 5950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 1800 5950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 1800 5950 50  0001 C CNN "Mouser"
 	6    1800 5950
 	1    0    0    -1  
 $EndComp
@@ -287,6 +299,7 @@ F 0 "U1" H 9230 1996 50  0000 L CNN
 F 1 "74HC14" H 9230 1905 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9000 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 9000 1950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 9000 1950 50  0001 C CNN "Mouser"
 	7    9000 1950
 	1    0    0    -1  
 $EndComp
@@ -298,6 +311,7 @@ F 0 "U1" H 1800 7267 50  0000 C CNN
 F 1 "74HC14" H 1800 7176 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1800 6950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 1800 6950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 1800 6950 50  0001 C CNN "Mouser"
 	3    1800 6950
 	1    0    0    -1  
 $EndComp
@@ -350,6 +364,7 @@ F 0 "C2" H 9742 1996 50  0000 L CNN
 F 1 "100nF" H 9742 1905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9650 1950 50  0001 C CNN
 F 3 "~" H 9650 1950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206071?qs=0KOYDY2FL2%2FEBQkuHgvarg%3D%3D" H 9650 1950 50  0001 C CNN "Mouser"
 	1    9650 1950
 	1    0    0    -1  
 $EndComp
@@ -378,12 +393,18 @@ L power:GNDREF #PWR?
 U 1 1 5ED755D7
 P 6400 4200
 AR Path="/5C906D74/5ED755D7" Ref="#PWR?"  Part="1" 
-AR Path="/5EA64CCD/5ED755D7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6400 3950 50  0001 C CNN
+AR Path="/5EA64CCD/5ED755D7" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 6400 3950 50  0001 C CNN
 F 1 "GNDREF" H 6405 4027 50  0000 C CNN
 F 2 "" H 6400 4200 50  0001 C CNN
 F 3 "" H 6400 4200 50  0001 C CNN
 	1    6400 4200
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6100 3200
+NoConn ~ 6100 3300
+NoConn ~ 6100 3500
+NoConn ~ 6100 3700
+NoConn ~ 6100 3800
+NoConn ~ 6100 3900
 $EndSCHEMATC

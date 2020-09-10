@@ -21,6 +21,7 @@ F 0 "J14" H 2250 2125 50  0000 C CNN
 F 1 "ATX24connector" H 2250 2034 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-24A_2x12_P4.20mm_Vertical" H 2200 1400 50  0001 C CNN
 F 3 "~" H 2200 1400 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Molex/39-28-1243?qs=4XSMV6Twtb0I%2F4%252BTTSJFbg%3D%3D" H 2200 1400 50  0001 C CNN "Mouser"
 	1    2200 1400
 	1    0    0    -1  
 $EndComp
@@ -192,7 +193,7 @@ L Device:R R1
 U 1 1 5C8995D6
 P 1850 4100
 F 0 "R1" H 1920 4146 50  0000 L CNN
-F 1 "200 ohm" H 1920 4055 50  0000 L CNN
+F 1 "200" H 1920 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1780 4100 50  0001 C CNN
 F 3 "~" H 1850 4100 50  0001 C CNN
 	1    1850 4100
@@ -208,6 +209,7 @@ F 0 "D1" V 1888 4333 50  0000 R CNN
 F 1 "LED" V 1797 4333 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1850 4450 50  0001 C CNN
 F 3 "~" H 1850 4450 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/OSRAM-Opto-Semiconductors/KG-DELMS122-PHQI-24-E6L6?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXw2hz5dPhSTuoMKPqIbYvs3A%3D%3D" H 1850 4450 50  0001 C CNN "Mouser"
 	1    1850 4450
 	0    -1   -1   0   
 $EndComp
@@ -245,6 +247,7 @@ F 0 "Q1" H 3605 2846 50  0000 L CNN
 F 1 "2N7000" H 3605 2755 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3600 2725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3400 2800 50  0001 L CNN
+F 4 "https://www.mouser.de/ProductDetail/ON-Semiconductor/2N7000?qs=FOlmdCx%252BAA2o%2FKZOTk%2F3hg%3D%3D" H 3400 2800 50  0001 C CNN "Mouser"
 	1    3400 2800
 	1    0    0    -1  
 $EndComp
@@ -299,6 +302,7 @@ F 0 "C10" H 5392 946 50  0000 L CNN
 F 1 "100nF" H 5392 855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5300 900 50  0001 C CNN
 F 3 "~" H 5300 900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206071?qs=0KOYDY2FL2%2FEBQkuHgvarg%3D%3D" H 5300 900 50  0001 C CNN "Mouser"
 	1    5300 900 
 	1    0    0    -1  
 $EndComp
@@ -310,6 +314,7 @@ F 0 "C11" H 5842 946 50  0000 L CNN
 F 1 "1uF" H 5842 855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 900 50  0001 C CNN
 F 3 "~" H 5750 900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 5750 900 50  0001 C CNN "Mouser"
 	1    5750 900 
 	1    0    0    -1  
 $EndComp
@@ -321,6 +326,7 @@ F 0 "C19" H 5842 1646 50  0000 L CNN
 F 1 "1uF" H 5842 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 1600 50  0001 C CNN
 F 3 "~" H 5750 1600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 5750 1600 50  0001 C CNN "Mouser"
 	1    5750 1600
 	1    0    0    -1  
 $EndComp
@@ -332,6 +338,7 @@ F 0 "C18" H 5392 1646 50  0000 L CNN
 F 1 "100nF" H 5392 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5300 1600 50  0001 C CNN
 F 3 "~" H 5300 1600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206071?qs=0KOYDY2FL2%2FEBQkuHgvarg%3D%3D" H 5300 1600 50  0001 C CNN "Mouser"
 	1    5300 1600
 	1    0    0    -1  
 $EndComp
@@ -343,6 +350,7 @@ F 0 "C12" H 6188 946 50  0000 L CNN
 F 1 "10uF" H 6188 855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 900 50  0001 C CNN
 F 3 "~" H 6100 900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=5aG0NVq1C4z8ebxPkQZf9A%3D%3D" H 6100 900 50  0001 C CNN "Mouser"
 	1    6100 900 
 	1    0    0    -1  
 $EndComp
@@ -354,6 +362,7 @@ F 0 "C13" H 6538 946 50  0000 L CNN
 F 1 "100uF" H 6538 855 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6450 900 50  0001 C CNN
 F 3 "~" H 6450 900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 6450 900 50  0001 C CNN "Mouser"
 	1    6450 900 
 	1    0    0    -1  
 $EndComp
@@ -395,6 +404,7 @@ F 0 "C20" H 6188 1646 50  0000 L CNN
 F 1 "10uF" H 6188 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 1600 50  0001 C CNN
 F 3 "~" H 6100 1600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=5aG0NVq1C4z8ebxPkQZf9A%3D%3D" H 6100 1600 50  0001 C CNN "Mouser"
 	1    6100 1600
 	1    0    0    -1  
 $EndComp
@@ -406,6 +416,7 @@ F 0 "C21" H 6538 1646 50  0000 L CNN
 F 1 "100uF" H 6538 1555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6450 1600 50  0001 C CNN
 F 3 "~" H 6450 1600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 6450 1600 50  0001 C CNN "Mouser"
 	1    6450 1600
 	1    0    0    -1  
 $EndComp
@@ -433,6 +444,7 @@ F 0 "C23" H 5842 2196 50  0000 L CNN
 F 1 "1uF" H 5842 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 2150 50  0001 C CNN
 F 3 "~" H 5750 2150 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 5750 2150 50  0001 C CNN "Mouser"
 	1    5750 2150
 	1    0    0    -1  
 $EndComp
@@ -444,6 +456,7 @@ F 0 "C22" H 5392 2196 50  0000 L CNN
 F 1 "100nF" H 5392 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5300 2150 50  0001 C CNN
 F 3 "~" H 5300 2150 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206071?qs=0KOYDY2FL2%2FEBQkuHgvarg%3D%3D" H 5300 2150 50  0001 C CNN "Mouser"
 	1    5300 2150
 	1    0    0    -1  
 $EndComp
@@ -455,6 +468,7 @@ F 0 "C24" H 6188 2196 50  0000 L CNN
 F 1 "10uF" H 6188 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 2150 50  0001 C CNN
 F 3 "~" H 6100 2150 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=5aG0NVq1C4z8ebxPkQZf9A%3D%3D" H 6100 2150 50  0001 C CNN "Mouser"
 	1    6100 2150
 	1    0    0    -1  
 $EndComp
@@ -466,6 +480,7 @@ F 0 "C25" H 6538 2196 50  0000 L CNN
 F 1 "100uF" H 6538 2105 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6450 2150 50  0001 C CNN
 F 3 "~" H 6450 2150 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 6450 2150 50  0001 C CNN "Mouser"
 	1    6450 2150
 	1    0    0    -1  
 $EndComp
@@ -493,6 +508,7 @@ F 0 "C26" H 6988 2196 50  0000 L CNN
 F 1 "100uF" H 6988 2105 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6900 2150 50  0001 C CNN
 F 3 "~" H 6900 2150 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 6900 2150 50  0001 C CNN "Mouser"
 	1    6900 2150
 	1    0    0    -1  
 $EndComp
@@ -512,6 +528,7 @@ F 0 "C14" H 7192 946 50  0000 L CNN
 F 1 "100nF" H 7192 855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 900 50  0001 C CNN
 F 3 "~" H 7100 900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206071?qs=0KOYDY2FL2%2FEBQkuHgvarg%3D%3D" H 7100 900 50  0001 C CNN "Mouser"
 	1    7100 900 
 	1    0    0    -1  
 $EndComp
@@ -523,6 +540,7 @@ F 0 "C15" H 7642 946 50  0000 L CNN
 F 1 "1uF" H 7642 855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7550 900 50  0001 C CNN
 F 3 "~" H 7550 900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 7550 900 50  0001 C CNN "Mouser"
 	1    7550 900 
 	1    0    0    -1  
 $EndComp
@@ -534,6 +552,7 @@ F 0 "C16" H 7988 946 50  0000 L CNN
 F 1 "10uF" H 7988 855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7900 900 50  0001 C CNN
 F 3 "~" H 7900 900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=5aG0NVq1C4z8ebxPkQZf9A%3D%3D" H 7900 900 50  0001 C CNN "Mouser"
 	1    7900 900 
 	1    0    0    -1  
 $EndComp
@@ -545,6 +564,7 @@ F 0 "C17" H 8338 946 50  0000 L CNN
 F 1 "100uF" H 8338 855 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8250 900 50  0001 C CNN
 F 3 "~" H 8250 900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/CD74HCT14M96E4?qs=sGAEpiMZZMutXGli8Ay4kIw6S1qvfJXbLnHR5ePq5ns%3D" H 8250 900 50  0001 C CNN "Mouser"
 	1    8250 900 
 	1    0    0    -1  
 $EndComp
@@ -598,7 +618,7 @@ L Device:R_Small R6
 U 1 1 5CD34B9A
 P 2900 2950
 F 0 "R6" H 2959 2996 50  0000 L CNN
-F 1 "10k" H 2959 2905 50  0000 L CNN
+F 1 "10K" H 2959 2905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2900 2950 50  0001 C CNN
 F 3 "~" H 2900 2950 50  0001 C CNN
 	1    2900 2950
@@ -649,25 +669,26 @@ Connection ~ 5950 2250
 Wire Wire Line
 	5950 2250 6100 2250
 Wire Wire Line
-	5300 800  5750 800 
+	5300 800  5650 800 
 Wire Wire Line
-	7100 800  7550 800 
+	7100 800  7450 800 
 Wire Wire Line
-	5300 1500 5750 1500
+	5300 1500 5650 1500
 Wire Wire Line
-	5300 2050 5750 2050
+	5300 2050 5650 2050
 Wire Wire Line
 	1350 3800 1850 3800
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector_Generic:Conn_01x10 J17
 U 1 1 5ECD7499
-P 9150 2800
-F 0 "J?" H 9230 2792 50  0000 L CNN
-F 1 "Power Connector" H 9230 2701 50  0000 L CNN
-F 2 "" H 9150 2800 50  0001 C CNN
-F 3 "~" H 9150 2800 50  0001 C CNN
-	1    9150 2800
-	1    0    0    -1  
+P 9150 2900
+F 0 "J17" H 9230 2892 50  0000 L CNN
+F 1 "Power Connector" H 9230 2801 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00295_1x10_P5.08mm_Horizontal" H 9150 2900 50  0001 C CNN
+F 3 "~" H 9150 2900 50  0001 C CNN
+F 4 "https://www.reichelt.de/loetbare-schraubklemme-3-pol-rm-5-08-mm-90-rnd-205-00288-p170289.html?&trstct=pos_0&nbc=1" H 9150 2900 50  0001 C CNN "Mouser"
+	1    9150 2900
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	8950 2400 8450 2400
@@ -690,10 +711,10 @@ Wire Wire Line
 Wire Wire Line
 	8950 3300 8450 3300
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0101
 U 1 1 5ECFAB53
 P 8450 2500
-F 0 "#PWR?" H 8450 2250 50  0001 C CNN
+F 0 "#PWR0101" H 8450 2250 50  0001 C CNN
 F 1 "GNDREF" V 8455 2372 50  0000 R CNN
 F 2 "" H 8450 2500 50  0001 C CNN
 F 3 "" H 8450 2500 50  0001 C CNN
@@ -701,10 +722,10 @@ F 3 "" H 8450 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0102
 U 1 1 5ECFAC7E
 P 8450 2700
-F 0 "#PWR?" H 8450 2450 50  0001 C CNN
+F 0 "#PWR0102" H 8450 2450 50  0001 C CNN
 F 1 "GNDREF" V 8455 2572 50  0000 R CNN
 F 2 "" H 8450 2700 50  0001 C CNN
 F 3 "" H 8450 2700 50  0001 C CNN
@@ -712,10 +733,10 @@ F 3 "" H 8450 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0103
 U 1 1 5ECFAF09
 P 8450 2900
-F 0 "#PWR?" H 8450 2650 50  0001 C CNN
+F 0 "#PWR0103" H 8450 2650 50  0001 C CNN
 F 1 "GNDREF" V 8455 2772 50  0000 R CNN
 F 2 "" H 8450 2900 50  0001 C CNN
 F 3 "" H 8450 2900 50  0001 C CNN
@@ -723,10 +744,10 @@ F 3 "" H 8450 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0104
 U 1 1 5ECFB0D3
 P 8450 3100
-F 0 "#PWR?" H 8450 2850 50  0001 C CNN
+F 0 "#PWR0104" H 8450 2850 50  0001 C CNN
 F 1 "GNDREF" V 8455 2972 50  0000 R CNN
 F 2 "" H 8450 3100 50  0001 C CNN
 F 3 "" H 8450 3100 50  0001 C CNN
@@ -734,10 +755,10 @@ F 3 "" H 8450 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0107
 U 1 1 5ECFB2AB
 P 8450 3300
-F 0 "#PWR?" H 8450 3050 50  0001 C CNN
+F 0 "#PWR0107" H 8450 3050 50  0001 C CNN
 F 1 "GNDREF" V 8455 3172 50  0000 R CNN
 F 2 "" H 8450 3300 50  0001 C CNN
 F 3 "" H 8450 3300 50  0001 C CNN
@@ -754,4 +775,60 @@ Text Label 8450 3000 0    50   ~ 0
 5V
 Text Label 8450 3200 0    50   ~ 0
 5V
+$Comp
+L power:+5VD #PWR0112
+U 1 1 5ED96B63
+P 5650 800
+F 0 "#PWR0112" H 5650 650 50  0001 C CNN
+F 1 "+5VD" H 5665 973 50  0000 C CNN
+F 2 "" H 5650 800 50  0001 C CNN
+F 3 "" H 5650 800 50  0001 C CNN
+	1    5650 800 
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 800 
+Wire Wire Line
+	5650 800  5750 800 
+$Comp
+L power:+5VL #PWR0113
+U 1 1 5ED973AC
+P 7450 800
+F 0 "#PWR0113" H 7450 650 50  0001 C CNN
+F 1 "+5VL" H 7465 973 50  0000 C CNN
+F 2 "" H 7450 800 50  0001 C CNN
+F 3 "" H 7450 800 50  0001 C CNN
+	1    7450 800 
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 800 
+Wire Wire Line
+	7450 800  7550 800 
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 5ED980DD
+P 5650 1500
+F 0 "#PWR0114" H 5650 1350 50  0001 C CNN
+F 1 "+3.3V" H 5665 1673 50  0000 C CNN
+F 2 "" H 5650 1500 50  0001 C CNN
+F 3 "" H 5650 1500 50  0001 C CNN
+	1    5650 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 1500
+Wire Wire Line
+	5650 1500 5750 1500
+$Comp
+L power:+12V #PWR0115
+U 1 1 5ED989A8
+P 5650 2050
+F 0 "#PWR0115" H 5650 1900 50  0001 C CNN
+F 1 "+12V" H 5665 2223 50  0000 C CNN
+F 2 "" H 5650 2050 50  0001 C CNN
+F 3 "" H 5650 2050 50  0001 C CNN
+	1    5650 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 2050
+Wire Wire Line
+	5650 2050 5750 2050
 $EndSCHEMATC

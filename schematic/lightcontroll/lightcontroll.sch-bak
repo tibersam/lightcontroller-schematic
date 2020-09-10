@@ -50,6 +50,10 @@ F30 "PE3" O R 2750 2600 50
 F31 "PE1" O L 1600 1850 50 
 F32 "PE0" I L 1600 2050 50 
 F33 "SPI3_SS" O R 2750 2200 50 
+F34 "PE2" I L 1600 2150 50 
+F35 "PE4" I L 1600 2250 50 
+F36 "PE5" O L 1600 2350 50 
+F37 "PE6" O L 1600 2450 50 
 $EndSheet
 $Sheet
 S 4550 950  900  950 
@@ -414,10 +418,16 @@ En_Level_SPI
 Wire Wire Line
 	1600 7050 1100 7050
 $Sheet
-S 7850 2150 500  150 
+S 4550 2250 900  800 
 U 5EB5672E
 F0 "IR-Recieve" 50
 F1 "IR-Recieve.sch" 50
+F2 "VCC" I L 4550 2350 50 
+F3 "Button1" O R 5450 2350 50 
+F4 "Button2" O R 5450 2450 50 
+F5 "5V" I L 4550 2450 50 
+F6 "Button1light" I L 4550 2550 50 
+F7 "Button2ight" I L 4550 2650 50 
 $EndSheet
 Wire Wire Line
 	1600 2050 1100 2050
@@ -427,8 +437,44 @@ Wire Wire Line
 	2750 2200 3350 2200
 Text Label 3350 2200 2    50   ~ 0
 SPI3_SS
-NoConn ~ 3350 3800
-NoConn ~ 3350 3700
-NoConn ~ 3350 3400
-NoConn ~ 3350 3300
+Text Label 4200 2350 0    50   ~ 0
+5V_UART
+Wire Wire Line
+	4200 2350 4550 2350
+Text Label 4200 2450 0    50   ~ 0
+5V
+Wire Wire Line
+	4200 2450 4550 2450
+Text Label 1100 2150 0    50   ~ 0
+PE2
+Text Label 1100 2250 0    50   ~ 0
+PE4
+Text Label 1100 2350 0    50   ~ 0
+PE5
+Text Label 1100 2450 0    50   ~ 0
+PE6
+Wire Wire Line
+	1100 2450 1600 2450
+Wire Wire Line
+	1600 2350 1100 2350
+Wire Wire Line
+	1100 2250 1600 2250
+Wire Wire Line
+	1600 2150 1100 2150
+Text Label 5550 2450 0    50   ~ 0
+PE2
+Text Label 5550 2350 0    50   ~ 0
+PE4
+Wire Wire Line
+	5450 2350 6000 2350
+Wire Wire Line
+	5450 2450 6000 2450
+Text Label 4200 2550 0    50   ~ 0
+PE5
+Text Label 4200 2650 0    50   ~ 0
+PE6
+Wire Wire Line
+	4200 2550 4550 2550
+Wire Wire Line
+	4550 2650 4200 2650
 $EndSCHEMATC

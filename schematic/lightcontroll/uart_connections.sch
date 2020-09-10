@@ -21,6 +21,7 @@ F 0 "U3" H 2500 7778 50  0000 C CNN
 F 1 "MAX13433EESD" H 2500 7687 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2500 5900 50  0001 C CIN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf" H 2500 7700 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX13433EESD%2b?qs=CDqwynd4ZNpm7OXRo1qQYw%3D%3D" H 2500 6900 50  0001 C CNN "Mouser"
 	1    2500 6900
 	1    0    0    -1  
 $EndComp
@@ -29,7 +30,7 @@ L Device:R R5
 U 1 1 5C913BCB
 P 3300 6600
 F 0 "R5" H 3370 6646 50  0000 L CNN
-F 1 "R" H 3370 6555 50  0000 L CNN
+F 1 "120" H 3370 6555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 6600 50  0001 C CNN
 F 3 "~" H 3300 6600 50  0001 C CNN
 	1    3300 6600
@@ -55,6 +56,7 @@ F 0 "J21" H 6050 6724 50  0000 C CNN
 F 1 "RJ45_LED_Shielded" H 6050 6815 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_BEL_SS74301-00x_Vertical" V 6050 6175 50  0001 C CNN
 F 3 "~" V 6050 6175 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Stewart-Connector-Bel/SS-74301-001?qs=%2Fha2pyFadugHtoWXbf7rjzodwtXlWR8vdipjKL0ybnsmrvyKMPQLNw%3D%3D" H 6050 6150 50  0001 C CNN "Mouser"
 	1    6050 6150
 	-1   0    0    1   
 $EndComp
@@ -118,6 +120,7 @@ F 0 "U2" H 3000 5978 50  0000 C CNN
 F 1 "MAX13433EESD" H 3000 5887 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3000 4100 50  0001 C CIN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf" H 3000 5900 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX13433EESD%2b?qs=CDqwynd4ZNpm7OXRo1qQYw%3D%3D" H 3000 5100 50  0001 C CNN "Mouser"
 	1    3000 5100
 	1    0    0    -1  
 $EndComp
@@ -144,7 +147,7 @@ L Device:R R2
 U 1 1 5C91C2AD
 P 3700 4750
 F 0 "R2" H 3770 4796 50  0000 L CNN
-F 1 "120 Ohm" H 3770 4705 50  0000 L CNN
+F 1 "120" H 3770 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4750 50  0001 C CNN
 F 3 "~" H 3700 4750 50  0001 C CNN
 	1    3700 4750
@@ -186,6 +189,7 @@ F 0 "C6" H 3865 4446 50  0000 L CNN
 F 1 "1uF" H 3865 4355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3788 4250 50  0001 C CNN
 F 3 "~" H 3750 4400 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 3750 4400 50  0001 C CNN "Mouser"
 	1    3750 4400
 	1    0    0    -1  
 $EndComp
@@ -219,6 +223,7 @@ F 0 "C7" V 1971 4600 50  0000 C CNN
 F 1 "100nF" V 2062 4600 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2200 4600 50  0001 C CNN
 F 3 "~" H 2200 4600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206071?qs=0KOYDY2FL2%2FEBQkuHgvarg%3D%3D" H 2200 4600 50  0001 C CNN "Mouser"
 	1    2200 4600
 	0    1    1    0   
 $EndComp
@@ -252,6 +257,7 @@ F 0 "C8" H 3142 6246 50  0000 L CNN
 F 1 "1uF" H 3142 6155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3050 6200 50  0001 C CNN
 F 3 "~" H 3050 6200 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206052?qs=0KOYDY2FL2%2F2JKabApojcQ%3D%3D" H 3050 6200 50  0001 C CNN "Mouser"
 	1    3050 6200
 	1    0    0    -1  
 $EndComp
@@ -282,9 +288,10 @@ L Device:C_Small C9
 U 1 1 5C9C338C
 P 1750 6400
 F 0 "C9" V 1521 6400 50  0000 C CNN
-F 1 "100 nF" V 1612 6400 50  0000 C CNN
+F 1 "100nF" V 1612 6400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1750 6400 50  0001 C CNN
 F 3 "~" H 1750 6400 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Wurth-Elektronik/885012206071?qs=0KOYDY2FL2%2FEBQkuHgvarg%3D%3D" H 1750 6400 50  0001 C CNN "Mouser"
 	1    1750 6400
 	0    1    1    0   
 $EndComp
@@ -456,7 +463,7 @@ L Device:R R3
 U 1 1 5CD67DC6
 P 6550 5700
 F 0 "R3" H 6620 5746 50  0000 L CNN
-F 1 "R" H 6620 5655 50  0000 L CNN
+F 1 "200" H 6620 5655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 5700 50  0001 C CNN
 F 3 "~" H 6550 5700 50  0001 C CNN
 	1    6550 5700
@@ -473,7 +480,7 @@ L Device:R R4
 U 1 1 5CD74615
 P 6650 6450
 F 0 "R4" V 6443 6450 50  0000 C CNN
-F 1 "R" V 6534 6450 50  0000 C CNN
+F 1 "200" V 6534 6450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6580 6450 50  0001 C CNN
 F 3 "~" H 6650 6450 50  0001 C CNN
 	1    6650 6450
@@ -653,10 +660,10 @@ UARTA_TX_P
 Text Label 3200 7200 0    50   ~ 0
 UARTA_TX_N
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0108
 U 1 1 5ED7AAC4
 P 6050 5650
-F 0 "#PWR?" H 6050 5400 50  0001 C CNN
+F 0 "#PWR0108" H 6050 5400 50  0001 C CNN
 F 1 "GNDREF" H 6055 5477 50  0000 C CNN
 F 2 "" H 6050 5650 50  0001 C CNN
 F 3 "" H 6050 5650 50  0001 C CNN
