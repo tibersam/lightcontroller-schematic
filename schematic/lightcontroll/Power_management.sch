@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 9
 Title "ATX Power Supply connection"
 Date "2019-03-12"
-Rev "1.1"
+Rev "2.0"
 Comp "Tibersam Industries"
 Comment1 ""
 Comment2 ""
@@ -144,7 +144,7 @@ U 1 1 5C892086
 P 2200 2800
 F 0 "J15" H 2279 2792 50  0000 L CNN
 F 1 "PWR_JMP" H 2279 2701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 2200 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2200 2800 50  0001 C CNN
 F 3 "~" H 2200 2800 50  0001 C CNN
 	1    2200 2800
 	1    0    0    -1  
@@ -183,7 +183,7 @@ U 1 1 5C897CCE
 P 2200 3800
 F 0 "J16" H 2279 3792 50  0000 L CNN
 F 1 "PWR_JMP" H 2279 3701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 2200 3800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2200 3800 50  0001 C CNN
 F 3 "~" H 2200 3800 50  0001 C CNN
 	1    2200 3800
 	1    0    0    -1  

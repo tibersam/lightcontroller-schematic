@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 9 9
 Title "IR and Button connections"
 Date ""
-Rev "1.1"
+Rev "2.0"
 Comp "Tibersam Industries"
 Comment1 ""
 Comment2 ""

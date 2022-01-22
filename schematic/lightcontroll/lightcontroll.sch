@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 9
 Title "Heimkino STM32 Hat"
 Date "2020-05-25"
-Rev "1.1"
+Rev "2.0"
 Comp "Tibersam Industries"
 Comment1 ""
 Comment2 ""

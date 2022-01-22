@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 9
 Title "STM32F407Black Pinout"
 Date "2020-04-14"
-Rev "1.1"
+Rev "2.0"
 Comp "Tibersam Industries"
 Comment1 ""
 Comment2 ""

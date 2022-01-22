@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 9
 Title "UART RS232 Over DSub9"
 Date "2020-05-25"
-Rev "1.1"
+Rev "2.0"
 Comp "Tibersam Industries"
 Comment1 ""
 Comment2 ""
@@ -386,8 +386,6 @@ Text HLabel 1500 3750 0    50   Output ~ 0
 UARTA_RX
 Text HLabel 1500 3950 0    50   Output ~ 0
 UARTB_RX
-NoConn ~ 3950 3350
-NoConn ~ 3950 3750
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5ED755D7
@@ -407,4 +405,44 @@ NoConn ~ 6100 3500
 NoConn ~ 6100 3700
 NoConn ~ 6100 3800
 NoConn ~ 6100 3900
+Text Label 4150 3350 0    50   ~ 0
+USARTATX
+Wire Wire Line
+	3950 3750 4650 3750
+Text Label 4150 3750 0    50   ~ 0
+USARTARX
+Wire Wire Line
+	3950 3350 4650 3350
+$Comp
+L Connector_Generic:Conn_01x03 uartapinheader1
+U 1 1 607A13A2
+P 7350 1200
+F 0 "uartapinheader1" V 7314 1012 50  0000 R CNN
+F 1 "Conn_01x03" V 7223 1012 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7350 1200 50  0001 C CNN
+F 3 "~" H 7350 1200 50  0001 C CNN
+	1    7350 1200
+	1    0    0    -1  
+$EndComp
+Text Label 6050 1100 0    50   ~ 0
+USARTATX
+Text Label 6050 1200 0    50   ~ 0
+USARTARX
+$Comp
+L power:GNDREF #PWR05
+U 1 1 607A88E1
+P 6000 1300
+F 0 "#PWR05" H 6000 1050 50  0001 C CNN
+F 1 "GNDREF" V 6005 1172 50  0000 R CNN
+F 2 "" H 6000 1300 50  0001 C CNN
+F 3 "" H 6000 1300 50  0001 C CNN
+	1    6000 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 1300 7150 1300
+Wire Wire Line
+	6000 1200 7150 1200
+Wire Wire Line
+	6000 1100 7150 1100
 $EndSCHEMATC

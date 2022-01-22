@@ -1,0 +1,26 @@
+** Drc report for /home/tibersam/slow_home/programieren/lightcontroll/schematic/lightcontroll/lightcontroll.kicad_pcb **
+** Created on 2022-01-22 21:29:03 **
+
+** Found 6 DRC errors **
+ErrType(19): Pad zu nah an Pad
+    @(25,578 mm, 16,358 mm): Pad 2 auf Q3 von Alle Kupferlagen
+    @(26,848 mm, 16,358 mm): Pad 3 auf Q3 von Alle Kupferlagen
+ErrType(19): Pad zu nah an Pad
+    @(31,115 mm, 16,358 mm): Pad 2 auf Q2 von Alle Kupferlagen
+    @(32,385 mm, 16,358 mm): Pad 3 auf Q2 von Alle Kupferlagen
+ErrType(19): Pad zu nah an Pad
+    @(73,330 mm, 84,970 mm): Pad 3 auf J24 von F.Cu und andere
+    @(73,330 mm, 86,970 mm): Pad 2 auf J24 von F.Cu
+ErrType(19): Pad zu nah an Pad
+    @(73,330 mm, 90,989 mm): Pad 3 auf J22 von F.Cu und andere
+    @(73,330 mm, 92,989 mm): Pad 2 auf J22 von F.Cu
+ErrType(19): Pad zu nah an Pad
+    @(73,406 mm, 98,704 mm): Pad 3 auf J37 von F.Cu und andere
+    @(73,406 mm, 100,704 mm): Pad 2 auf J37 von F.Cu
+ErrType(19): Pad zu nah an Pad
+    @(73,939 mm, 108,763 mm): Pad 3 auf J39 von F.Cu und andere
+    @(75,939 mm, 108,763 mm): Pad 2 auf J39 von F.Cu
+
+** Found 0 unconnected pads **
+
+** End of Report **

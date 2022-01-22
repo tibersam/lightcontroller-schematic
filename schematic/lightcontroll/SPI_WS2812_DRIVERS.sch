@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 7 9
 Title "SPI to WS2812 Circuit"
-Date "2020-05-25"
-Rev "1.1"
+Date "2021-04-10"
+Rev "2.0"
 Comp "Tibersam Industries"
 Comment1 ""
 Comment2 ""
@@ -158,22 +158,6 @@ Text Label 3850 4100 0    50   ~ 0
 MOSI5V
 Wire Wire Line
 	3800 4100 4300 4100
-$Comp
-L power:GNDREF #PWR048
-U 1 1 5CA5DBD4
-P 4050 3950
-AR Path="/5C987024/5CA5DBD4" Ref="#PWR048"  Part="1" 
-AR Path="/5EBD8EEE/5CA5DBD4" Ref="#PWR058"  Part="1" 
-AR Path="/5EBDAB7A/5CA5DBD4" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 4050 3700 50  0001 C CNN
-F 1 "GNDREF" V 4055 3822 50  0000 R CNN
-F 2 "" H 4050 3950 50  0001 C CNN
-F 3 "" H 4050 3950 50  0001 C CNN
-	1    4050 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4050 3950 4300 3950
 Text HLabel 3700 3300 0    50   Input ~ 0
 5V
 $Comp
@@ -212,12 +196,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 3550 3700 3600
 Wire Wire Line
-	3700 3800 4300 3800
-Wire Wire Line
-	4300 3700 4050 3700
-Wire Wire Line
-	4050 3700 4050 3600
-Wire Wire Line
 	4050 3600 3700 3600
 Connection ~ 3700 3600
 Text Label 4450 3150 0    50   ~ 0
@@ -231,16 +209,16 @@ CLK5V
 $Comp
 L 74xx:7402 U5
 U 1 1 5CA62BE7
-P 6550 3800
+P 3350 3950
 AR Path="/5C987024/5CA62BE7" Ref="U5"  Part="1" 
 AR Path="/5EBD8EEE/5CA62BE7" Ref="U9"  Part="1" 
 AR Path="/5EBDAB7A/5CA62BE7" Ref="U12"  Part="1" 
-F 0 "U12" H 6550 4125 50  0000 C CNN
-F 1 "7402" H 6550 4034 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6550 3800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7402" H 6550 3800 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/SN74HCT02DR?qs=sGAEpiMZZMtMa9lbYwD6ZJeO7ZVi7W4dXAwvCCwNxTo%3D" H 6550 3800 50  0001 C CNN "Mouser"
-	1    6550 3800
+F 0 "U12" H 3350 4275 50  0000 C CNN
+F 1 "7402" H 3350 4184 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3350 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7402" H 3350 3950 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/SN74HCT02DR?qs=sGAEpiMZZMtMa9lbYwD6ZJeO7ZVi7W4dXAwvCCwNxTo%3D" H 3350 3950 50  0001 C CNN "Mouser"
+	1    3350 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -721,13 +699,37 @@ AR Path="/5C987024/5F6A7729" Ref="U5"  Part="4"
 AR Path="/5EBDAB7A/5F6A7729" Ref="U12"  Part="4" 
 F 0 "U12" H 4000 4875 50  0000 C CNN
 F 1 "7402" H 4000 4784 50  0000 C CNN
-F 2 "" H 4000 4550 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4000 4550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7402" H 4000 4550 50  0001 C CNN
 F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/SN74HCT02DR?qs=sGAEpiMZZMtMa9lbYwD6ZJeO7ZVi7W4dXAwvCCwNxTo%3D" H 4000 4550 50  0001 C CNN "Mouser"
 	4    4000 4550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6850 3800
-NoConn ~ 6250 3900
-NoConn ~ 6250 3700
+Wire Wire Line
+	3700 3800 3700 3850
+Wire Wire Line
+	3700 3850 4200 3850
+Wire Wire Line
+	4200 3850 4200 3700
+Wire Wire Line
+	4200 3700 4300 3700
+Wire Wire Line
+	4050 3800 4300 3800
+Wire Wire Line
+	4050 3600 4050 3800
+Wire Wire Line
+	3050 3850 2950 3850
+Wire Wire Line
+	2950 3850 2950 3950
+Wire Wire Line
+	2950 4050 3050 4050
+Wire Wire Line
+	2950 3950 2300 3950
+Connection ~ 2950 3950
+Wire Wire Line
+	2950 3950 2950 4050
+Text Label 2450 3950 0    50   ~ 0
+CLK5V
+Wire Wire Line
+	3650 3950 4300 3950
 $EndSCHEMATC
